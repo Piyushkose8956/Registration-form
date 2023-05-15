@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<style> 
+* { 
+margin: 0; 
+padding: 0; 
+} 
+body { 
+background-color: blanchedalmond; 
+} 
+img {
+height: 140px; 
+display: inline; 
+} 
+header { 
+background-color: rgb(40, 116, 240); 
+font-family: 'Edu VIC WA NT Beginner', cursive; font-family: 'Splash', cursive; 
+font-family: 'The Nautigal', cursive; 
+} 
+.nav { 
+display: flex; 
+align-items: center; 
+} 
+.nav ul li { 
+color: white; 
+text-decoration: none; 
+} 
+.nav ul li { 
+color: white; 
+text-decoration: none; 
+display: inline; 
+font-size: 50px; 
+margin: 40px; 
+} 
+.logo {
+display: flex; 
+align-items: center; 
+} 
+.logo img { 
+width: 168px; 
+padding: 0 25px; 
+} 
+fieldset { 
+justify-content: center; 
+align-content: center; 
+align-items: center; 
+display: grid; 
+} 
+h3 { 
+display: flex; 
+font-size: 35px; 
+} 
+</style> 
+<body> 
+<header> 
+<div class="nav"> 
+<div class="logo"> 
+<img src="/task 4/pngwing.com.png" alt=""> 
+</div> 
+<ul> 
+<li><strong>BLOOD DONATION FORM</strong></li>
+</ul> 
+</div> 
+</header> 
+<br> 
+<hr> 
+<h3>Blood Donation Information</h3> 
+<form action=""> 
+<fieldset> 
+<!-- <legend>Enter your name</legend> --> 
+<label for="">DONAR'S NAME:</label><br> 
+<input type="text" name="fname" size="30" placeholder="First name"> <input type="text" name="lname" 
+size="30" placeholder="last name"> <br> 
+<label for="">Date of Birth:</label> 
+<input type="date" name="lname" size="30"><br> 
+<label for="">Email:</label> 
+<input type="Email" size="30" placeholder="enter your email"><br> <label for="">Phone</label> 
+<input type="phone" placeholder="##### #####"><br> 
+<label for="">Home Address</label><br> 
+<input type="text" size="60" placeholder="Street Address"><br> <input type="text" size="60" 
+placeholder="Street Address 2"><br> <input type="text" placeholder="city"> 
+<input type="text" placeholder="Region"><br> 
+<input type="text" placeholder="postal & zip code"> 
+<select name="" id=""> 
+<!-- <input type="text" placeholder="Countray"> --> 
+<option value="">Countray</option> 
+<option value="">India</option> 
+<option value="">America</option> 
+<option value="">Austrelia</option>
+</select><br> 
+<label for="">Occupation</label> 
+<input type="text" size="30"><br><br> 
+<label for="">Blood Type</label> 
+<select name="" id=""> 
+<option value=""> -</option> 
+<option value="">O+</option> 
+<option value="">O-</option> 
+<option value="">A+</option> 
+<option value="">A-</option> 
+<option value="">B+</option> 
+<option value="">B-</option> 
+<option value="">AB+</option> 
+<option value="">AB-</option> 
+</select><br> 
+<h4>Did you ever donate blood before?</h4> 
+<input type="radio" name="Gender">Yes 
+<input type="radio" name="Gender">NO
+<br><br> 
+<h5>Health Security Check</h5><br> 
+<label for="">Do you suffer of any diseases?</label> <input type="radio" name="Gender">Yes 
+<input type="radio" name="Gender">NO 
+<br><br> 
+<label for="">Do you have allergies?</label> 
+<input type="radio" name="Gender">Yes 
+
+<input type="radio" name="Gender">NO 
+<textarea name="" id="" cols="50" rows="5"></textarea> <button class="button-86" 
+role="button">Submit</button> </fieldset>
+</form> 
+</body> 
+</html> 
